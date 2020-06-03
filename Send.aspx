@@ -87,7 +87,7 @@
             
             
             MailMessage msg = new MailMessage();
-            msg.To.Add(new MailAddress("u.singhal@british-school.org"));
+            msg.To.Add(new MailAddress("akash.singh@british-school.org"));
             
             
             
@@ -114,8 +114,7 @@
         }
         catch (Exception ex)
         {
-            Response.Write(ex.Message);
-        
+            Response.Redirect("index.html", false);
         }
         
         
